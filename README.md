@@ -35,3 +35,8 @@ The Raspberry Pi runs two Python scripts, one that pulls data from the Arduino a
 The Arduino is plugged in to and powered over USB by the Raspberry Pi. The Raspberry Pi, with a WiFi dongle in it's second USB slot, is then plugged into the wall. It could just as easily be set up to run off of batteries.
 
 We also setup a local SMTP mail server on the Raspberry Pi to send text messages as emails to AT&T phone numbers at <phonenumber>@txt.att.net.
+
+License
+-------
+
+This code is free to be reused and repurposed under the MIT License.
