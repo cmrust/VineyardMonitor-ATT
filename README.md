@@ -1,7 +1,7 @@
 VineyardMonitor-ATT
 ====================
 
-ATT Hackathon Dallas 2014 M2X Category Winner
+AT&T Hackathon Dallas 2014 M2X Category Winner
 
 Overview
 --------
