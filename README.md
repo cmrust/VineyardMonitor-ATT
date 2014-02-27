@@ -21,7 +21,7 @@ Included Files
 
 - tem.py - this reads the arduino's serial port for sensor updates to push to M2X
 - tempy.ino - this code is compiled and run on the arduino
-- triggers.py - this code polls requestb.in for updates to our triggers on M2X
+- triggers.py - this polls requestb.in for updates to our triggers on M2X
 - schema.sql - the definition file for the sqlite phone number database
 - m2x-screenshot.png - screenshot of our data graphed in the M2X dashboard
 
