@@ -4,7 +4,7 @@ from datetime import datetime
 from m2x.client import M2XClient
 
 # instantiate our M2X API client
-client = M2XClient(key='1c31adc4330a390b606b42832626ec9d')
+client = M2XClient(key='#REMOVED#')
 
 # instantiate our serial connection to the Arduino
 arduino = serial.Serial('/dev/ttyUSB0', 9600)
