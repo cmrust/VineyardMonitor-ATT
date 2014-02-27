@@ -81,6 +81,7 @@ void manualTune()
 
 void playSong()
 {
+  // plays a snippet of the imperial march
   #define C0 16.35
   #define Db0 17.32
   #define D0  18.35
