@@ -6,7 +6,7 @@ AT&T Hackathon Dallas 2014 - M2X Category Winner
 Overview
 --------
 
-This project was created for an entry to the AT&T Hackathon on Feb. 21 and 22nd in Dallas, TX.
+This project was created for an entry to the AT&T Hackathon on Feb. 21 and 22nd, 2014 in Dallas, TX.
 
 This project was built from a [Sparkfun Inventor's Kit](https://www.sparkfun.com/products/12643) and a Raspberry Pi.
 
@@ -14,7 +14,7 @@ From the provided kit, we used the SparkFun RedBoard (Arduino Uno equivalent), t
 
 The goal of this project is to create a portable sensor unit that can detect useful data for plant growers such as light levels and temperature. The unit, wirelessly connected to the internet, then relays data back to the AT&T M2X servers where it's stored for analysis.
 
-The temperature and light logs are graphed in real time, and this data is viewable immediately. We're leveraging another feature of M2X called 'triggers' that sends alerts based on user defined conditions. For instance, if the temperature gets too hot. We're using a web-service called requestb.in to catch those alerts from M2X for us. When a trigger is caught, we print an alert to the unit's screen, play a sound and send a text message.
+The temperature and light logs are graphed in real time, and this data is viewable immediately. We're also leveraging another feature of M2X called 'triggers' that sends alerts based on user defined conditions. For instance, if the temperature gets too hot. We're using a web-service called requestb.in to catch those alerts from M2X for us. When a trigger is caught, we print an alert to the unit's screen, play a sound and send a text message.
 
 Included Files
 --------------
@@ -28,7 +28,7 @@ Included Files
 About the setup
 ---------------
 
-The Arduino code gathers the sensor data and waits for user input to trigger the alerts. 
+The Arduino code gathers the sensor data and waits for user input to react to the alerts. 
 
 The Raspberry Pi runs two Python scripts, one that pulls data from the Arduino and one that sends a text message and tells the Arduino to alert.
 
